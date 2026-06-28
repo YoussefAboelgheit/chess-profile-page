@@ -1,0 +1,107 @@
+.font-custom {
+    font-size: 20px;
+    line-height: 30px;
+}
+* {
+    font-family: Arial;
+    background-color: rgb(253, 217, 181);
+}
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;   
+    padding-right: 410px;
+}
+hr {
+    background-color: rgb(14, 21, 98);
+    border: none;
+    height: 2px;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color:blue;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color:red;
+}
+table {
+    border-collapse: collapse;
+    border-color: rgb(86, 184, 86);
+    border-style: solid;
+    border-width: 6px;
+}
+td, th {
+    border: 3px solid rgb(86, 184, 86);;
+}
+
+/* Navigation Bar Container */
+.navbar {
+    background-color: rgb(64, 141, 59);
+    padding: 10px 0;
+    margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+
+/* Horizontal List */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+/* Individual Links */
+.navbar li {
+    margin: 0 30px;
+    background-color: transparent;
+}
+
+.navbar li a {
+    color: white !important;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.navbar li a:hover {
+    color: rgb(86, 184, 86) !important;
+    text-decoration: none;
+}
+
+.img-custom {
+    width: 350px;
+    height: 280px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#contact-custom {
+    background-color: rgb(6, 6, 45) !important;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+#contact-custom * {
+    background-color: rgb(6, 6, 45) !important;
+    font-size: 20px;
+}
+#contact-custom a {
+    background-color: rgb(6, 6, 45);
+    color: white !important;
+    text-decoration: none;
+}
+#contact-custom a:hover {
+    text-decoration: underline;
+}
